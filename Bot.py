@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InputFile
 
-API_TOKEN = "YOUR_BOT_TOKEN"
+API_TOKEN = "8009527341:AAFlAPDVP0htdsBd_FQvUGoMz5KAJLEPVPw"
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
