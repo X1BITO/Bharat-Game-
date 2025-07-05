@@ -5,7 +5,7 @@ import json
 import os
 from datetime import datetime
 
-API_TOKEN = "8009527341:AAFlAPDVP0htdsBd_FQvUGoMz5KAJLEPVPw"
+API_TOKEN = "8009527341:AAE5TwInlG1EBHLO86bwiAOUYK54RZ1iAz8"
 bot = telebot.TeleBot(API_TOKEN)
 
 DATA_FILE = "data.json"
