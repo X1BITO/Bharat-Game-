@@ -19,7 +19,7 @@ def send_welcome(message):
 def deposit(message):
     try:
         qr = InputFile("qr.png")
-        bot.send_photo(message.chat.id, qr, caption="📥 UPI ID: 7037391707@fam\n💸 Minimum Deposit: ₹100\n🧾 Send /submit after payment to send TXN ID.")
+        bot.send_photo(message.chat.id, qr, caption="📥 UPI ID: dixituchiha99@fam\n💸 Minimum Deposit: ₹100\n🧾 Send /submit after payment to send TXN ID.")
     except:
         bot.reply_to(message, "❌ QR code not found. Please upload 'qr.png'.")
 
