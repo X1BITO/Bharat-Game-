@@ -113,7 +113,7 @@ def withdraw(message):
     uid = str(message.from_user.id)
     data = load_json(DATA_FILE)
     bal = data.get(uid, {}).get("wallet", 0)
-    if bal < 50000:
+    if bal < 500:
         bot.reply_to(message, "❌ Minimum withdrawal is ₹50,000.")
     else:
         admin_uid = ADMIN_IDS[0]
